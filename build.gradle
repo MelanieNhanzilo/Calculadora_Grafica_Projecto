@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+// Arquivo build.gradle do projeto
+buildscript {
+    repositories {
+        google() // Repositório Maven do Google
+        mavenCentral() // Repositório Maven Central
+    }
+    dependencies {
+        // Dependências do classpath do Android Gradle Plugin
+        classpath 'com.android.tools.build:gradle:7.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+
+        // Repositório Maven JitPack
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

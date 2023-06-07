@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tabela">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="TABELA"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TableLayout
+        android:layout_width="366dp"
+        android:layout_height="494dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="178dp"
+                android:layout_height="48dp"
+                android:background="@drawable/table_items"
+                android:text="X"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/table_items"
+                android:text="Y"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tv_x1"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/tv_y1"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tv_x2"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/tv_y2"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tv_x3"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/tv_y3"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tv_x4"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/tv_y4"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tv_x5"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/tv_y5"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tv_x6"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/tv_y6"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tv_x7"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/tv_y7"
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:background="@drawable/table_items"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_plot"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/bt_operacoes"
+            android:text="plot"
+            android:textAllCaps="false"
+            android:textColor="#F8F6F6"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
